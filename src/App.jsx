@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import RightBox from "./component/RightBox";
 import LeftBox from "./component/LeftBox";
-import { useTip } from "./context/tipProvider";
+import { useTip } from "./context/tipContext";
 
 function App() {
   const {

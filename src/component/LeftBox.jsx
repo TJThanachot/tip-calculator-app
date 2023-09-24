@@ -12,7 +12,7 @@ function LeftBox() {
     customTips,
   } = useTip();
   return (
-    <div className="w-[50%] rounded-box flex flex-col justify-between">
+    <div className="w-[50%] max-sm:w-[100%] rounded-box flex flex-col justify-between">
       <label
         className="flex flex-col items-start gap-2 relative"
         htmlFor="bill"

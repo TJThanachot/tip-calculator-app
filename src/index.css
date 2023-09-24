@@ -1,6 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: rgb(199, 230, 230) !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -11,9 +10,8 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-background-color: white;
+  padding: 0;
+
 }
 
 @tailwind base;

@@ -1,5 +1,5 @@
 import React from "react";
-import { useTip } from "../context/tipProvider";
+import { useTip } from "../context/tipContext";
 
 function LeftBox() {
   const {

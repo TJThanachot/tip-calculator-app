@@ -28,11 +28,11 @@ function App() {
   }, [bill, peopleNumber, tips, tipsAmount]);
 
   return (
-    <div className="mt-[10%] flex flex-col items-center gap-10 h-[50rem] font-bold">
+    <div className="mt-[10%] flex flex-col items-center gap-10 h-[50rem] font-bold ">
       <h1 className="text-5xl font-extrabold text-teal-900">
         Tips Calculator App
       </h1>
-      <div className="rounded-box p-8 flex w-[70%] h-[50%] bg-slate-100 gap-8">
+      <div className="rounded-box p-8 flex w-[70%] min-h-[50%] h-auto bg-slate-100 gap-8 max-sm:flex-col max-sm:w-[100%]">
         {/* left box ******************************************************************* */}
         <LeftBox />
         {/* right box ******************************************************************* */}

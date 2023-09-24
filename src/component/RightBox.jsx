@@ -18,7 +18,7 @@ function RightBox() {
     <div className="w-[50%] max-sm:w-[100%] rounded-box bg-teal-900 h-[100%] justify-between flex flex-col p-8">
       <div className="text-white h-[50%] justify-between flex flex-col gap-5">
         <div className="flex justify-between ">
-          <div className="flex flex-col items-start justify-center">
+          <div className="flex flex-col items-start justify-center ">
             Total Tips
           </div>
           <div className="text-teal-500 text-5xl">${tipsAmount}</div>
